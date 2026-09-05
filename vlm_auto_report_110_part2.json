@@ -1,0 +1,63 @@
+{
+  "results": {
+    "40": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q40\nR1 1 2 10000\nR2 2 0 470\nV3 1 0 DC 10\nV4 0 0 DC 0\n.end",
+      "parts": [
+        "FET"
+      ]
+    },
+    "41": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q41\nV5 5 0 DC 5.0\n.end",
+      "parts": [
+        "P1",
+        "N1",
+        "P2",
+        "N2"
+      ]
+    },
+    "42": {
+      "verdict": "REVIEW",
+      "components": 7,
+      "netlist": "* Q42\nR1 1 2 500\nR4 4 5 500\nV5 1 0 DC 0\nV6 5 0 DC 0\nV-V_CC 0 6 DC 0\n.end",
+      "parts": [
+        "Q1",
+        "Q2"
+      ]
+    },
+    "46": {
+      "verdict": "REVIEW",
+      "components": 7,
+      "netlist": "* Q46\nR1 1 2 1000\nR2 3 4 1000\nC2 1 0 1e-06\nC3 3 0 1e-06\nV5 2 0 DC 20\nR6 4 0 10\n.end",
+      "parts": [
+        "T1"
+      ]
+    },
+    "47": {
+      "verdict": "REVIEW",
+      "components": 7,
+      "netlist": "* Q47\nR1 1 2 30000\nR2 2 3 30000\nR3 3 4 6000\nR4 4 0 18000\nV2 1 0 DC 6000\nV3 3 0 DC 0\n.end",
+      "parts": [
+        "OPA"
+      ]
+    },
+    "48": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q48\nR1 1 2 1\nR2 2 3 2\nR3 3 0 3\nR4 0 1 1\n.end"
+    },
+    "49": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q49\nR1 1 2 25000\nR2 2 3 40000\nR3 3 0 10000\nC2 2 0 0.2\nV2 0 0 DC 15\nV3 0 0 DC -15\n.end"
+    },
+    "50": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q50\nR1 2 3 1000\nR2 3 0 1000\nV3 1 0 DC 12\nV4 2 0 DC 0\nV5 1 0 DC 0\nV6 4 0 DC 0\nV7 5 0 DC 0\n.end"
+    }
+  }
+}

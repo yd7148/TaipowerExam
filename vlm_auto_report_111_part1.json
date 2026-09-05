@@ -1,0 +1,88 @@
+{
+  "results": {
+    "2": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q2\nR1 1 2 10\nV2 1 0 DC 110\nR3 2 3 20\nR4 3 0 10\nI2 2 3 DC 10\n.end",
+      "nodes": {
+        "3": 27.499999999999993,
+        "2": 82.5,
+        "1": 110.0
+      }
+    },
+    "3": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q3\nR1 1 2 8\nR2 2 3 2\nR3 3 4 10\nR4 4 5 6\nR5 4 6 6\nI2 1 0 DC 10\nI3 3 0 DC 3\nI4 5 0 DC 15\nI5 6 0 DC 7\nI6 6 0 DC 7\n.end"
+    },
+    "4": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q4\nC1 1 2 1e-05\nC2 2 3 1.5e-05\nC3 3 4 1e-05\nC4 4 5 6e-06\nV2 5 0 DC 300\n.end"
+    },
+    "7": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q7\nR1 1 2 2000\nV2 1 0 DC 20\nV3 2 0 DC 3\nV4 3 0 DC 20\nR3 3 4 20\n.end",
+      "nodes": {
+        "4": 20.0,
+        "3": 20.0,
+        "2": 3.0,
+        "1": 20.0
+      }
+    },
+    "8": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    },
+    "9": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q9\nR1 1 2 9\nR2 2 3 27\nR3 3 0 3\nV2 2 0 DC 15\nV3 3 0 DC 12\nV4 1 0 DC 42\n.end",
+      "nodes": {
+        "3": 12.0,
+        "2": 15.0,
+        "1": 42.0
+      }
+    },
+    "11": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q11\nR1 1 2 6\nV2 3 0 DC 24\nC2 4 0 1\nL2 2 3 2\n.end"
+    },
+    "12": {
+      "verdict": "REVIEW",
+      "components": 9,
+      "netlist": "* Q12\nR1 1 2 4\nR2 2 3 4\nR3 3 4 4\nR4 4 5 4\nR5 2 6 6\nR6 3 7 6\nR7 6 7 6\nR8 5 8 4\nR9 7 8 4\n.end"
+    },
+    "13": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    },
+    "14": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q14\nR1 1 2 2\nR2 2 3 2\nR3 3 4 3\nR4 4 5 3\nR5 5 6 1\nR6 6 7 1\n.end"
+    },
+    "16": {
+      "verdict": "REVIEW",
+      "components": 7,
+      "netlist": "* Q16\nR1 1 2 4\nR2 2 3 6\nR3 3 4 2\nR4 4 5 1\nV2 1 0 DC 30\nV3 4 0 DC 9\nI2 2 3 DC 0\n.end",
+      "nodes": {
+        "5": 9.0,
+        "4": 9.0,
+        "3": 12.5,
+        "2": 23.000000000000004,
+        "1": 30.0
+      }
+    },
+    "19": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    },
+    "22": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    }
+  }
+}
