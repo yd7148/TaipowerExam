@@ -1,0 +1,8 @@
+# Local model weights (large binary files, don't push to GitHub)
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

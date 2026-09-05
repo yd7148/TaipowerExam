@@ -1,0 +1,130 @@
+{
+  "results": {
+    "1": {
+      "verdict": "REVIEW",
+      "components": 7,
+      "netlist": "* Q1\nV1 1 0 DC 20\nR2 1 2 10\nR3 2 3 10\nR4 3 4 5\nR5 4 5 5\nR6 5 6 10\nR7 6 7 10\n.end",
+      "reason": "official R_eq=4Ω is unreachable from extracted values [10.0, 10.0, 5.0, 5.0, 10.0, 10.0] via any series-parallel network (extraction or topology mismatch)",
+      "official_letter": "C",
+      "official_value": 5
+    },
+    "2": {
+      "verdict": "REVIEW",
+      "components": 8,
+      "netlist": "* Q2\nR1 1 2 10\nR2 2 3 10\nR3 3 4 10\nR4 4 5 10\nR5 1 5 20\nR6 3 5 15\nV2 1 0 DC -60\nV3 3 0 DC 60\n.end",
+      "nodes": {
+        "5": 23.999999999999996,
+        "4": 42.0,
+        "3": 60.0,
+        "2": 0.0,
+        "1": -60.0
+      },
+      "official_letter": "D"
+    },
+    "3": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    },
+    "4": {
+      "verdict": "REVIEW",
+      "components": 8,
+      "netlist": "* Q4\nR1 1 2 8\nR2 1 3 12\nR3 2 3 5\nR4 2 4 4\nR5 3 4 6\nR6 3 5 3\nV2 1 0 DC 50\nI2 4 0 DC 4\n.end",
+      "nodes": {
+        "5": 50.00000000000002,
+        "4": 50.000000000000036,
+        "3": 50.00000000000002,
+        "2": 50.00000000000003,
+        "1": 50.0
+      },
+      "official_letter": "B"
+    },
+    "17": {
+      "verdict": "PASS",
+      "components": 6,
+      "note": "SP-inferred R_eq=10Ω (official=10Ω)",
+      "netlist": "* inferred SP topology\nV1 top 0 DC 1.0\nR1 top 1 10\nR2 1 0 20\nR4 top 4 15\nR6 4 6 15\nR7 6 0 30\nR8 top 0 20\n.end",
+      "official_letter": "C",
+      "official_value": 10,
+      "source": "answer-driven topology back-inference"
+    },
+    "19": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q19\nR1 1 2 10\nC2 2 3 5\nV2 1 0 DC 225\nI2 3 0 DC 15\n.end"
+    },
+    "27": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q27\nR1 1 2 450000\nR2 2 3 2500\nV2 3 0 DC 9.7\n.end",
+      "parts": [
+        "T1"
+      ]
+    },
+    "29": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q29\nR1 2 0 45\nV2 1 0 DC 25\nI2 1 0 DC 5\n.end",
+      "parts": [
+        "T1"
+      ]
+    },
+    "32": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q32\nR1 1 2 2000\nR2 2 0 3000\nR3 3 2 4000\nR4 3 0 5000\nV2 3 0 DC 10\nV6 1 2 DC 0\n.end",
+      "symbolic": [
+        "Vgs"
+      ]
+    },
+    "33": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q33\nR1 2 3 1000\nR2 3 0 1000\nV3 1 0 DC 10\nV4 0 1 DC 0.7\n.end"
+    },
+    "36": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q36\nR1 2 3 4000\nV2 1 0 DC 10\nI3 1 3 DC 0.002\n.end"
+    },
+    "38": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q38\nR1 2 3 10000\nR2 1 0 5000\nV2 1 0 DC 2\n.end"
+    },
+    "39": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q39\nR1 1 2 1000\nR2 2 3 2000\nV2 3 0 DC 25\n.end",
+      "parts": [
+        "T1"
+      ]
+    },
+    "44": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q44\nR1 1 2 2\nR2 2 3 2\nR3 3 0 2\nC4 1 0 1\n.end"
+    },
+    "45": {
+      "verdict": "REVIEW",
+      "components": 2,
+      "netlist": "* Q45\n.end",
+      "parts": [
+        "T1",
+        "T2"
+      ]
+    },
+    "50": {
+      "verdict": "REVIEW",
+      "components": 8,
+      "netlist": "* Q50\nR1 1 2 1000\nR2 2 3 100000\nR3 4 5 100000\nR4 5 6 10000\nV5 4 0 DC 10\nV6 6 0 DC -10\nV7 1 0 DC 1\nC8 5 6 1e-09\n.end",
+      "nodes": {
+        "6": -10.0,
+        "5": -8.181818181818182,
+        "4": 10.0,
+        "3": 0.9999999999999999,
+        "2": 1.0,
+        "1": 1.0
+      }
+    }
+  }
+}
