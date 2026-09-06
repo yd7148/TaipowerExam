@@ -1,0 +1,203 @@
+{
+  "results": {
+    "10": {
+      "verdict": "REVIEW",
+      "components": 7,
+      "netlist": "* Q10\nR1 1 2 20\nR2 2 3 20\nR3 3 4 80\nV2 1 0 DC 20\nV3 0 4 DC 24\nI2 1 0 DC 10\nI3 4 0 DC 4\n.end",
+      "nodes": {
+        "4": -24.0,
+        "3": 5.333333333333332,
+        "2": 12.666666666666666,
+        "1": 20.0
+      }
+    },
+    "11": {
+      "verdict": "REVIEW",
+      "components": 2,
+      "netlist": "* Q11\nR1 1 2 3\nR2 3 4 9\n.end"
+    },
+    "12": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q12\nR1 1 2 100000\nC2 2 0 1e-05\nV3 1 0 DC 5\n.end",
+      "nodes": {
+        "2": 4.999999999999999,
+        "1": 5.0
+      }
+    },
+    "18": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q18\n.end",
+      "parts": [
+        "M1",
+        "M2",
+        "M3"
+      ]
+    },
+    "19": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q19\nR1 1 2 160\nV2 1 0 DC 20\nV3 2 0 DC 12\n.end",
+      "nodes": {
+        "2": 12.0,
+        "1": 20.0
+      }
+    },
+    "23": {
+      "verdict": "REVIEW",
+      "components": 1,
+      "netlist": "* Q23\n.end",
+      "parts": [
+        "T1"
+      ]
+    },
+    "27": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q27\nR1 1 2 4\nR2 3 4 8\nR3 2 3 8\nR4 1 4 8\n.end"
+    },
+    "28": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q28\nR1 1 2 12\nL2 2 3 4\nC2 3 0 1\n.end"
+    },
+    "30": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q30\nR1 1 2 1\nC2 2 3 0.001\nL3 3 0 0.00025\n.end"
+    },
+    "31": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q31\nR1 1 2 10000\nR2 2 3 10000\nC2 2 0 1e-06\nC3 3 0 1e-06\n.end",
+      "parts": [
+        "OPA1",
+        "OPA2"
+      ]
+    },
+    "32": {
+      "verdict": "REVIEW",
+      "components": 10,
+      "netlist": "* Q32\nR1 1 2 3\nR2 2 3 4\nR3 3 4 2\nR4 4 5 6\nR5 5 6 8\nR6 1 6 7\nV2 0 6 DC 193\nV3 5 0 DC 193\nI2 2 3 DC 0.4\nI3 4 5 DC 0.5\n.end",
+      "nodes": {
+        "6": -193.0,
+        "5": 193.0,
+        "4": 87.72727272727273,
+        "3": 52.63636363636365,
+        "2": -17.545454545454533,
+        "1": -70.18181818181817
+      }
+    },
+    "33": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q33\nR1 1 2 1\nR2 2 3 2\nR3 3 4 3\nV2 0 1 DC 150\n.end",
+      "nodes": {
+        "4": -150.0,
+        "3": -150.0,
+        "2": -150.0,
+        "1": -150.0
+      }
+    },
+    "34": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q34\nR1 1 2 1\nR2 2 3 2\nV2 1 0 DC 250\n.end",
+      "nodes": {
+        "3": 250.0,
+        "2": 250.0,
+        "1": 250.0
+      }
+    },
+    "35": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q35\nR1 1 2 5\nL2 2 3 1.5\nC2 3 4 0.01\nV2 0 1 DC 10\nI2 4 0 DC 6\n.end"
+    },
+    "36": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q36\nR1 1 2 60000\nR2 2 3 400000\nC2 2 0 1e-07\n.end"
+    },
+    "37": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q37\nR1 1 2 10\nR2 2 3 3\nR3 3 4 3\nV2 1 0 DC 12\n.end",
+      "nodes": {
+        "4": 12.0,
+        "3": 12.0,
+        "2": 12.0,
+        "1": 12.0
+      }
+    },
+    "38": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q38\nR1 1 2 10\nV2 1 0 DC 10\nL2 2 3 5\n.end",
+      "nodes": {
+        "3": 10.0,
+        "2": 10.0,
+        "1": 10.0
+      }
+    },
+    "41": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q41\nR1 1 2 8000\nR2 2 0 4300\nV2 1 0 DC 5\nV3 2 0 DC -5\n.end",
+      "nodes": {
+        "2": -5.0,
+        "1": 5.0
+      }
+    },
+    "43": {
+      "verdict": "REVIEW",
+      "components": 8,
+      "netlist": "* Q43\nR1 1 2 1000\nR2 2 3 1000\nR3 3 4 1000\nR4 4 5 2000\nV5 1 0 DC 10\n.end",
+      "parts": [
+        "VD1",
+        "VD2",
+        "A"
+      ]
+    },
+    "45": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q45\nR1 1 2 10000\nC2 2 3 1e-09\nC3 3 0 1e-09\nR3 2 3 0\nV2 1 0 DC 0\n.end",
+      "symbolic": [
+        "R2",
+        "V1"
+      ]
+    },
+    "46": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q46\nR1 1 2 10000\nR2 2 3 10000\nR3 3 0 10000\nR4 3 0 100\nV5 1 0 DC 10\n.end",
+      "nodes": {
+        "3": 0.049261083743842374,
+        "2": 5.024630541871921,
+        "1": 10.0
+      }
+    },
+    "49": {
+      "verdict": "REVIEW",
+      "components": 9,
+      "netlist": "* Q49\nR1 1 2 1000\nR2 2 3 1000\nR3 3 4 3000\nR4 4 5 4000\nR5 5 6 1000\nR6 6 7 1000\nV2 8 0 DC 6\n.end",
+      "parts": [
+        "LED1",
+        "LED2"
+      ]
+    },
+    "50": {
+      "verdict": "REVIEW",
+      "components": 8,
+      "netlist": "* Q50\nR1 1 2 1000\nV2 3 0 DC 1\nC2 2 0 1\nC3 3 0 1\n.end",
+      "parts": [
+        "T1",
+        "T2",
+        "D1",
+        "D2"
+      ]
+    }
+  }
+}

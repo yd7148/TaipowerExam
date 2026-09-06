@@ -1,0 +1,86 @@
+{
+  "results": {
+    "18": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q18\n.end",
+      "parts": [
+        "M1",
+        "M2",
+        "M3"
+      ]
+    },
+    "19": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q19\nR1 1 2 160\nV2 1 0 DC 20\nV0 2 0 DC 12\nI2 2 3 DC 5\nI3 2 3 DC 80\n.end",
+      "nodes": {
+        "3": 8.499999999999999e-17,
+        "2": 12.0,
+        "1": 20.0
+      }
+    },
+    "23": {
+      "verdict": "REVIEW",
+      "components": 1,
+      "netlist": "* Q23\n.end",
+      "parts": [
+        "T1"
+      ]
+    },
+    "41": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q41\nR1 1 2 8000\nR2 2 0 4300\nV2 1 0 DC 5\nV3 2 0 DC -5\n.end",
+      "nodes": {
+        "2": -5.0,
+        "1": 5.0
+      }
+    },
+    "43": {
+      "verdict": "REVIEW",
+      "components": 7,
+      "netlist": "* Q43\nR1 1 2 1000\nR2 2 3 1000\nR3 3 4 1000\nR4 4 5 2000\nR5 5 0 1000\nV2 1 0 DC 1\n.end",
+      "parts": [
+        "D1"
+      ]
+    },
+    "45": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q45\nR1 1 2 10000\nC2 2 3 1e-09\nC3 3 0 1e-09\nR3 2 3 0\nV2 1 0 DC 0\n.end",
+      "symbolic": [
+        "R2",
+        "V1"
+      ]
+    },
+    "46": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q46\nR1 1 2 10000\nR2 2 3 10000\nR3 3 0 10000\nR4 3 0 100\nV5 1 0 DC 10\n.end",
+      "parts": [
+        "transistor"
+      ]
+    },
+    "49": {
+      "verdict": "REVIEW",
+      "components": 9,
+      "netlist": "* Q49\nR1 1 2 1000\nR2 2 3 1000\nR3 3 4 3000\nR4 4 5 4000\nR5 5 6 1000\nR6 6 7 1000\nV2 8 0 DC 6\n.end",
+      "parts": [
+        "LED1",
+        "LED2"
+      ]
+    },
+    "50": {
+      "verdict": "REVIEW",
+      "components": 8,
+      "netlist": "* Q50\nR1 1 2 1000\nV2 2 0 DC 25\nV3 3 0 DC 1\nI0 5 0 DC 0\n.end",
+      "parts": [
+        "T1",
+        "T2",
+        "D1",
+        "D2"
+      ]
+    }
+  }
+}

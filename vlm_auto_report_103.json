@@ -1,0 +1,201 @@
+{
+  "results": {
+    "3": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    },
+    "4": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q4\nR1 1 2 10\nR2 2 3 20\nV2 1 0 DC 6\n.end",
+      "nodes": {
+        "3": 6.0,
+        "2": 6.0,
+        "1": 6.0
+      }
+    },
+    "6": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q6\nC1 1 2 1e-05\nR2 2 3 0\nV2 3 0 DC 0\n.end",
+      "symbolic": [
+        "R1",
+        "V1"
+      ]
+    },
+    "9": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q9\nR1 1 2 20\nR2 2 3 30\nR3 3 4 1\nV2 1 0 DC 60\nI2 3 0 DC 2\n.end",
+      "nodes": {
+        "4": 59.999999999999936,
+        "3": 59.999999999999936,
+        "2": 59.99999999999996,
+        "1": 60.0
+      }
+    },
+    "10": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q10\nV1 1 0 DC 2\nR2 1 2 1000\nC3 2 0 0.5\n.end",
+      "nodes": {
+        "2": 2.0,
+        "1": 2.0
+      }
+    },
+    "12": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q12\nV1 1 0 DC 10\nC2 2 3 0.001\n.end",
+      "parts": [
+        "D1"
+      ]
+    },
+    "15": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q15\nR1 1 2 200\nR2 2 3 50\nV2 1 0 DC 12\nV3 3 0 DC 4.1\n.end",
+      "parts": [
+        "Q1",
+        "Q2"
+      ]
+    },
+    "16": {
+      "verdict": "REVIEW",
+      "components": 4,
+      "netlist": "* Q16\nR1 1 2 47000\nV2 1 0 DC 12\nC2 2 3 0.01\n.end",
+      "parts": [
+        "Q1"
+      ]
+    },
+    "17": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q17\nR1 1 0 100000\nR2 2 0 0\nV2 1 0 DC 10\n.end",
+      "nodes": {
+        "2": 0.0,
+        "1": 10.0
+      }
+    },
+    "18": {
+      "verdict": "REVIEW",
+      "components": 1,
+      "netlist": "* Q18\nC1 2 3 1\n.end"
+    },
+    "19": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q19\n.end",
+      "parts": [
+        "VT1",
+        "VT2",
+        "VT3"
+      ]
+    },
+    "20": {
+      "verdict": "REVIEW",
+      "components": 1,
+      "netlist": "* Q20\nR1 2 3 680\n.end"
+    },
+    "21": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    },
+    "22": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q22\nR1 1 2 2\nR2 2 3 2\nR3 3 4 40\nR4 4 5 20\nV2 1 0 DC 5\n.end",
+      "nodes": {
+        "5": 4.999999999999998,
+        "4": 4.999999999999998,
+        "3": 4.999999999999999,
+        "2": 5.0,
+        "1": 5.0
+      },
+      "official_letter": "C"
+    },
+    "23": {
+      "verdict": "REVIEW",
+      "components": 3,
+      "netlist": "* Q23\nL1 1 2 4\nL2 2 3 2\n.end"
+    },
+    "24": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q24\nR1 1 2 6\nV2 1 0 DC 8\nR3 2 3 3\nI2 1 0 DC 2\nI3 2 3 DC 4\n.end",
+      "nodes": {
+        "3": 7.999999999999998,
+        "2": 7.999999999999998,
+        "1": 8.0
+      }
+    },
+    "27": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q27\nI1 1 0 DC 10\nR2 1 2 0.02\nC2 2 0 3\nL2 2 3 1\nR3 3 4 1\nR4 4 0 1\n.end",
+      "nodes": {
+        "4": -9.999999999999999e-18,
+        "3": -1.9999999999999998e-17,
+        "2": -1.9999999999999998e-17,
+        "1": -2.0199999999999997e-17
+      }
+    },
+    "29": {
+      "verdict": "REVIEW",
+      "components": 2,
+      "netlist": "* Q29\nR1 1 2 2\nC2 2 0 0.5\n.end"
+    },
+    "30": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q30\nR1 1 2 40\nC2 2 3 0.5\nV2 3 0 DC 2\n.end"
+    },
+    "31": {
+      "verdict": "REVIEW",
+      "components": 15,
+      "netlist": "* Q31\nR1 1 2 400000\nR2 2 3 75000\nR3 3 4 13000\nR4 4 5 10000\nR2 1 6 500\nR3 3 6 3600\nR4 4 6 1400\nC2 1 0 0\nC3 2 0 0\nC4 3 0 0\nV2 1 0 DC 10\nV12 5 0 DC 10\n.end",
+      "parts": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    },
+    "33": {
+      "verdict": "REVIEW",
+      "components": 5,
+      "netlist": "* Q33\nR1 1 2 10000000\nR2 2 3 10000000\nR3 3 0 6000\nR4 0 3 6000\nV5 2 0 DC 10\n.end",
+      "nodes": {
+        "3": 0.0029991002699190244,
+        "2": 10.0,
+        "1": 10.0
+      }
+    },
+    "35": {
+      "verdict": "REVIEW",
+      "components": 6,
+      "netlist": "* Q35\nR1 1 2 10\nR2 2 3 23000\nR3 3 4 23000\nR4 4 5 10000\nR5 5 6 10000\nV2 1 0 DC 1\n.end",
+      "nodes": {
+        "6": 0.9999999999999999,
+        "5": 0.9999999999999999,
+        "4": 0.9999999999999999,
+        "3": 1.0,
+        "2": 1.0,
+        "1": 1.0
+      }
+    },
+    "37": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q37\nR1 1 2 50000\nR2 2 3 67000\nR3 3 4 50000\nR4 4 5 5000\nR5 5 6 10000\nV2 6 0 DC 5\nV3 6 0 DC -5\nC2 2 3 0.0477\n.end"
+    },
+    "38": {
+      "verdict": "NO-CIRCUIT",
+      "components": 0
+    },
+    "39": {
+      "verdict": "SIM-ERR",
+      "error": "Command 'run' failed",
+      "netlist": "* Q39\nL1 1 2 1\nC2 2 3 4e-14\nC3 3 0 2e-13\nI2 3 0 DC 0.0004\n.end"
+    }
+  }
+}
